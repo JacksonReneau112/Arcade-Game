@@ -35,11 +35,14 @@
             // 
             // PlayGameButton
             // 
-            this.PlayGameButton.BackColor = System.Drawing.Color.DimGray;
+            this.PlayGameButton.BackColor = System.Drawing.Color.Turquoise;
+            this.PlayGameButton.FlatAppearance.BorderSize = 0;
+            this.PlayGameButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.PlayGameButton.Font = new System.Drawing.Font("Rockwell", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PlayGameButton.Location = new System.Drawing.Point(273, 183);
+            this.PlayGameButton.ForeColor = System.Drawing.Color.Black;
+            this.PlayGameButton.Location = new System.Drawing.Point(12, 183);
             this.PlayGameButton.Name = "PlayGameButton";
-            this.PlayGameButton.Size = new System.Drawing.Size(242, 66);
+            this.PlayGameButton.Size = new System.Drawing.Size(776, 66);
             this.PlayGameButton.TabIndex = 0;
             this.PlayGameButton.Text = "Play Game";
             this.PlayGameButton.UseVisualStyleBackColor = false;
